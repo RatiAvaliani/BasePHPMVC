@@ -1,7 +1,7 @@
 # Base MVC
 Basic MVC pattern for building web pages.
 ```
-** application
+**application
   - config
       - config.php
   - controllers
@@ -9,7 +9,7 @@ Basic MVC pattern for building web pages.
   - models
       - Model.class.php
   - views
- ** framework
+ **framework
   - interfaces
       - controllerInterface.interface.php
   - libraries
@@ -19,7 +19,7 @@ Basic MVC pattern for building web pages.
       - nav.trait.php
       - notifications.trait.php
       - request.trait.php
-** public
+**public
   - css
   - images
   - js
