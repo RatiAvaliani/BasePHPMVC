@@ -3,22 +3,22 @@ Basic MVC pattern for building web pages.
 ```
 application
   - config
-    - config.php
+      - config.php
   - controllers
-    - Controller.class.php
+      - Controller.class.php
   - models
-    - Model.class.php
+      - Model.class.php
   - views
  framework
   - interfaces
       - controllerInterface.interface.php
   - libraries
-    - autoLoader.class.php
+      - autoLoader.class.php
   - traits
-    - loader.trait.php
-    - nav.trait.php
-    - notifications.trait.php
-    - request.trait.php
+      - loader.trait.php
+      - nav.trait.php
+      - notifications.trait.php
+      - request.trait.php
 public
   - css
   - images
