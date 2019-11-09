@@ -1,0 +1,140 @@
+ * {
+     list-style-type: none;
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+ }
+ body {
+     background-color: #f1f1f1;
+ }
+ header {
+     margin: 0 auto;
+     height: 50px;
+     box-shadow: 4px 7px 20px 0px #9395b3;
+     background-color: #9babfa;
+     border-radius: 2px;
+ }
+ header h2 {
+     float: left;
+     margin-top: 14px;
+     font-size: 20px;
+     padding-left: 15px;
+ }
+ header ul {
+     display: inline-flex;
+ }
+ header ul li {
+     padding-left: 5px;
+ }
+ header ul li a:hover   {
+     background-color: #f27d7d;
+ }
+ header ul li a{
+     padding: 16px;
+     border-radius: 2px;
+     background-color: #f2a0a0;
+     color: #262626;
+     font-size: 16px;
+     transition: 0.2s;
+ }
+
+ .approved-list {
+     margin-top: 10px;
+ }
+
+ .approved-list h2 {
+     text-align: center;
+     padding: 12px;
+     background-color: #d3d9fa;
+     border-radius: 2px;
+     box-shadow: 4px 4px 20px 0px #9395b3;
+ }
+.approved-list div {
+    display: flow-root;
+}
+ .approved-list .approved-list-item {
+     padding: 10px;
+     margin: 10px;
+     width: 22.7%;
+     min-height: 250px;
+     overflow: hidden;
+     max-height: 0;
+     display: flex;
+     float: left;
+     background-color: white;
+     border-radius: 2px;
+ }
+ .approved-list-item ul {
+     width: 100%;
+     display: inline-grid;
+     padding: 15px;
+ }
+ .approved-list-item ul li {
+
+ }
+
+ #login {
+     width: 100%;
+     display: flow-root;
+     margin: 0 auto;
+     text-align: center
+ }
+
+ #login form {
+     background-color: #ffffff;
+     padding: 15%;
+ }
+
+ #login form input {
+     width: 49%;
+     height: 4%;
+     padding: 10px;
+     font-size: 13px;
+     border-radius: 2px;
+     border: none;
+     box-shadow: 4px 3px 10px #9395b3;
+ }
+
+ form button[type=submit] {
+     background-color: #9babfa;
+     border-radius: 2px;
+     border: none;
+     margin: 10px;
+     font-size: 17px;
+     box-shadow: 4px 7px 20px 0px #9395b3;
+     padding: 7px 20%;
+     transition: 0.2s;
+     cursor: pointer;
+     width: 100%;
+ }
+
+ #login form button[type=submit]:hover {
+     background-color: #7e93f8;
+ }
+
+ #sendApplication {
+     background-color: white;
+     width: 100%;
+     margin-top: 10px;
+     padding-top: 2%;
+     padding-bottom: 2%;
+ }
+
+ #sendApplication form {
+     padding: 5%;
+ }
+
+ #sendApplication div {
+     width: 49%;
+     display: inline-block;
+ }
+
+ #sendApplication h2 {
+     text-align: center;
+ }
+
+ #sendApplication input[type=file] {
+     float: right;
+ }
+ #sendApplication form div a{
+     display: block;
+ }
