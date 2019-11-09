@@ -29,7 +29,7 @@ index.php
 InstallSql.sql
 
 ```
-** config.php
+**config.php
 
 ```
 define('DS', DIRECTORY_SEPARATOR);
