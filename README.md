@@ -6,9 +6,9 @@ application
     - config.php
   - controllers
     - Controller.class.php
-   - models
+  - models
     - Model.class.php
-   - views
+  - views
  framework
   - interfaces
       - controllerInterface.interface.php
