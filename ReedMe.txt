@@ -1,0 +1,10 @@
+MVC config Is in the: application/config/config.php (you can change mysql server info there And DOMEIN constant).
+
+USERS:
+     guests:
+        username: user1, password: password1
+        username: user2, password: password1
+        username: user3, password: password1
+        username: user4, password: password1
+     admin / managers :
+        username: admin, password: password1

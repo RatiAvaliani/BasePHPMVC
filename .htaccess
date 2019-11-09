@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^((.*).css|(.*).js|(.*).png|(.*).jpg)	 [NC]
+RewriteRule ^(.+)/(.+) index.php?c=$1&p=$2 [QSA]
